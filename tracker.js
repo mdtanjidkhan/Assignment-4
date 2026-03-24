@@ -68,7 +68,7 @@ function showOnly(id){
     interviewCount++;
     document.getElementById("interview-count").innerText = interviewCount;
     document.getElementById("rejected-count").innerText = rejectedCount;
-
+   
     
     let status = card.querySelector(".status-text");
     status.innerText = "INTERVIEW";
